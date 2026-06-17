@@ -97,7 +97,7 @@ st.pydeck_chart(pdk.Deck(
 ))
 
 # ======================
-# GRAPHS INTERACTIFS 🔥
+# GRAPHS INTERACTIFS 
 # ======================
 col1, col2 = st.columns(2)
 
@@ -151,7 +151,7 @@ fig.update_traces(mode="lines+markers")
 st.plotly_chart(fig, use_container_width=True)
 
 # ======================
-# SIMULATION LIVE 🔥
+# SIMULATION LIVE 
 # ======================
 st.subheader("🤖 Simulation météo (temps réel)")
 
